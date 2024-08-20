@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#主治 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#主治">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#病证"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#具备 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#具备">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#功效"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#对应 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#对应">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#病证"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#治法"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#相应 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#相应">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#证型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#病证"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#组成 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#组成">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#表现 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#表现">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#病证"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#证型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#需求 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#需求">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#治法"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#功效"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#主治 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#主治">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#使用方法 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#使用方法">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#别名 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#别名">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#名称"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#制作过程 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#制作过程">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#配方"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#名称 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#名称">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#功效"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#治法"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#病证"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#症状"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#证型"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#归经 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#归经">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#性味 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#性味">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#拼音 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#拼音">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#名称"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#描述 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#描述">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#功效"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#治法"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#病证"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#症状"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#证型"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂类别 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂类别">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#类别"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方解 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方解">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#是否临床使用 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#是否临床使用">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+        <rdfs:label>临床疗效</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#是否保健品 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#是否保健品">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+        <rdfs:label>保健品</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#注意事项 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#注意事项">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#炮制方法 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#炮制方法">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#用法 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#用法"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#禁忌 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#禁忌">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#注意事项"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#类别 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#类别"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#药材类别 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#药材类别">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#类别"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#药食同源 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#药食同源">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#证治机理 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#证治机理">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#配方 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#配方">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#中药"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#功效 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#功效"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#方剂"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#治法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#治法"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#病证 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#病证"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#症状 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#症状"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#证型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhangheyi/ontologies/2024/6/untitled-ontology-3#证型"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
